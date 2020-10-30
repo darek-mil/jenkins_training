@@ -15,7 +15,7 @@ Describe "League tests" {
             Select-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
         }
         It "should another win" {
-            Select-Winner -ieam1 "Other" -Team2 "Widzew" | Should -be "Widzew"
+            elect-Winner -Team1 "Other" -Team2 "Widzew" | Should -be "Widzew"
         }
         
         
